@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Library.Persistence
+namespace Library.Persistence.PostgreSQL
 {
     public class LibraryContext : DbContext
     {

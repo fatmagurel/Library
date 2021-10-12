@@ -1,5 +1,5 @@
 ﻿using Library.Application.Common.Repositories;
-using Library.Persistence.Repositories;
+using Library.Persistence.PostgreSQL.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Library.Persistence
+namespace Library.Persistence.PostgreSQL
 {
     public static class DependencyInjection
     {

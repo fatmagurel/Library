@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Library.Persistence.Repositories
+namespace Library.Persistence.PostgreSQL.Repositories
 {
     public class PublishingHouseRepository : BaseRepository<PublishingHouse>, IPublishingHouseRepository
     {
