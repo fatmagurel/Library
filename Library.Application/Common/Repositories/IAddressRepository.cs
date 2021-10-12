@@ -9,5 +9,19 @@ namespace Library.Application.Common.Repositories
 {
     public interface IAddressRepository : IRepository<Address>
     {
+        public  IAddressQueryRepository Query { get; }
+        public IAddressCommandRepository Command { get; }
+
+
     }
+
+    public interface IAddressCommandRepository
+    {
+    }
+
+    public interface IAddressQueryRepository
+    {
+    }
+
+   
 }
